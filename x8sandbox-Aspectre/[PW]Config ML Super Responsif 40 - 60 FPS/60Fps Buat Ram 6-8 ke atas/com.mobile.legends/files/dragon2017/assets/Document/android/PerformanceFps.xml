@@ -1,0 +1,24 @@
+<Destination="com.mobile.legends"/>
+    <int name="PreformanceLvUpdate" value="0" />
+    <int name="HighFpsMode" value="60" />
+    <int name="ParticleQuality" value="0" />
+    <int name="IsMinimalDevice" value="1" />
+    <int name="HighDefinition" value="0" />
+    <int name="HighFpsGuide" value="1" />
+    <int name="bVeryHighQuality" value="0" />
+    <int name="ro.product.gpu.drive" value="1" />
+    <int name="debug.performance.tuning" value="1" />
+    <int name="windowsmgr.max_events_per_sec" value="120" />
+    <int name="persist.sys.NV_POWERMODE" value="1" />
+    <int name="persist.sys.NV_PROFVER" value="15" />
+    <int name="hw2d.force" value="1" />
+   <int name="persist.sys.NV_FPSLIMIT" value="90" />
+<Activated="HighFrameRate="60" />
+    <int name="overlock60fps"value="true" />
+    <int name="ro.wmt.blcr.enable" value="0" />
+<supersmoothest />
+</procces>
+  </ping="10ms"/>
+    </MaxPing="20ms"/>
+  </Section="cloudflare.Configuration.WebDestination"
+<mconfig>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="HighFpsMode"value="120" >/
+    <int name="PreformanceLv"value="120" >/
+    <int name="HighFpsModeSee"value="120" >/
+    <int name="targetFrameRate"value="60" >/
+</map>
+
+<int name="target.FrameRate"value="120" >/
+<Application.LockFrameRate="120" >/
+<void start
+Application.targetFrameRate = 120 >/

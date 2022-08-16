@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mconfig>
+  <configuration>
+<ControlSettings/>
+     <Info                                      int
+     "Delay                                   0,1x
+      Skill                                     Fast
+     Animation                               Smooth
+      Hero                                    Low"
+     <CustomDefault/>
+<Document.unity3d/>
+
+<ControlSettings/>
+     <Delay                                    int
+     "Speed                                  0,1
+      Render                                 0,1
+      Touch                                  0,1
+      Boost                                Enable"
+     <CustomDefault/>
+<Document.unity3d/>
+
+<mconfig>
+void start(){
+—> Application.targetFrameRateSee = "60"
+—> Application.targetFrameRate = "60"
+—> Application.targetDelayTouch ="0,1" 
+}

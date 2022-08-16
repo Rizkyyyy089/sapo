@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="UnityData/Managed/Metadata/global-metadata.dat" md5="97fa2eae153457fb3da68555b37cf7d1" />
+  <item name="comlibs/arm64-v8a/liblogic.bytes" md5="9a73254e013828e514867557780f764c" />
+  <item name="comlibs/armeabi-v7a/liblogic.bytes" md5="301896d4c7e6f81d8ad2059552wsg1681i1usf18wg28ahe236ea4f0a" />
+  <item name="INTERNET.BOOSTER/android"
+md5="cheriownetwork.net5g./3u88tjt95jnrurir888271661188k7sh27sh1"/>
+
+  <item name="android/lua/logic.so" md5="00ddbb6e9e09e6a0db88d231beb32216" />
+  <item name="Art/android/ArtResource.unity3d" md5="148ca6ec3868cc29d1aad754f15668b5" />
+  <item name="comlibs/armeabi-v7a/liblogic.bytes"
+</root>
+
+<internet>
+      <changer.server.ml="0.3.4.4.4.0" />
+      <partner.port:5193/> 
+      <superstable/server/ping/>
+      <lowping="5ms"/> <highping="40ms"/>
+      <code="11997646299129000" />
+      <md5="001638063./519r5682k618"/>
+      <destination from= Leagueoflegends.com/>
+</internet>
+
+
+				<action android:name="android.net.VpnService" />
+			</intent-filter>
+		</service>
+		<service android:label="@7f1262g628263182632618g91920d001c" android:icon="@7f0805227188182373662828082" android:name="app.intra.sys.IntraTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+			<intent-filter>
+				<action android:name="android.service.quicksettings.action.QS_TILE" />
+			</intent-filter>
+			<meta-data android:name="android.service.quicksettings.ACTIVE_TILE" android:value="true" />
+		</service>
+		<receiver android:name="app.intra.sys.AutoStarter" android:enabled="true">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+			</intent-filter>
+		</receiver>
+
+	¿½uï¿½=ï¿½ï¿½$ï¿½ï¿½ï¿½1ï��[^Í������FT�D$����D$�FP�$�N����ÉFP뻍�&����UWVS��<�\$T�l$P�������M<�<������49�<�+����un�V�����K�������������I�������������������������������������� �����E�]P� �UP�E��1Ҩ������M@����ۉE�M<������EL������������u�����<�t)��tz��`Htr�$�����EL�$趂����<1�[^_]Å�t��`Hu׉$蘂���EL�EP�=i�����'��� `�������}e��½ï¿½ï¿½����ï¿½½uï¿½=uï¿½=ï¿½ï¿½$ï¿½ï¿½ï¿½1ï��[^Í������FT�D$����D$�FP�$�N����ÉFP뻍�&����UWVS��<�\$T�l$P��
+#Data Speed Tweaks
+net.tcp.buffersize.default=4096,87380,256960,4096, 16384,256960 net.tcp.buffersize.wifi=4096,87380,256960,4096,163 84,256960 net.tcp.buffersize.umts=4096,87380,256960,4096,163 84,256960 net.tcp.buffersize.gprs=4096,87380,256960,4096,163 84,256960 net.tcp.buffersize.edge=4096,87380,256960,4096,163 84,256960 net.rmnet0.dns1=8.8.8.8 net.rmnet0.dns2=8.8.4.4 net.dns1=8.8.8.8 net.dns2=8.8.4.4
+
+Code:
+#----------------------------------
+#             Start
+#----------------------------------
+
+# DNS Servers [Quad9 & Cloudflare]
+
+net.dns1=9.9.9.9
+net.dns2=149.112.112.112
+net.dns3=1.1.1.1
+net.dns4=1.0.0.1
+
+net.wlan0.dns1=9.9.9.9
+net.wlan0.dns2=149.112.112.112
+net.wlan0.dns3=1.1.1.1
+net.wlan0.dns4=1.0.0.1
+
+net.eth0.dns1=9.9.9.9
+net.eth0.dns2=149.112.112.112
+net.eth0.dns3=1.1.1.1
+net.eth0.dns4=1.0.0.1
+
+net.wcdma.dns1=9.9.9.9
+net.wcdma.dns2=149.112.112.112
+net.wcdma.dns3=1.1.1.1
+net.wcdma.dns4=1.0.0.1
+
+net.hspa.dns1=9.9.9.9
+net.hspa.dns2=149.112.112.112
+net.hspa.dns3=1.1.1.1
+net.hspa.dns4=1.0.0.1
+
+net.lte.dns1=9.9.9.9
+net.lte.dns2=149.112.112.112
+net.lte.dns3=1.1.1.1
+net.lte.dns4=1.0.0.1
+
+net.ltea.dns1=9.9.9.9
+net.ltea.dns2=149.112.112.112
+net.ltea.dns3=1.1.1.1
+net.ltea.dns4=1.0.0.1
+#
+#buffer tweaks
+net.tcp.buffersize.default=6144,87380,1048576,6144,87380,524288
+net.tcp.buffersize.wifi=524288,1048576,2097152,524288,1048576,2097152
+net.tcp.buffersize.umts=6144,87380,1048576,6144,87380,524288
+net.tcp.buffersize.edge=6144,87380,524288,6144,16384,262144
+net.tcp.buffersize.gprs=6144,87380,1048576,6144,87380,524288
+net.tcp.buffersize.evdo=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.evdo_a=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.hsdpa=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.hspa=6144,87380,524288,6144,16384,262144
+net.tcp.buffersize.hsupa=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.lte=524288,1048576,2097152,524288,1048576,2097152
+#
+persist.data_netmgrd_mtu=1500
